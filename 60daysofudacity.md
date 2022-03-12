@@ -8,7 +8,7 @@
 
 
 
-## Day 1
+## Day 1 - 03.08.22
 
 1. Worked on and turned in Project 1. 
 
@@ -18,7 +18,7 @@
 
 
 
-## Day 2 
+## Day 2 - 03.11.22
 
 1. I read the review I received of my first project, worked on it and resubmitted. Starting going through the First section which we already did in the challenge course as my progress did not transfer over. Perused Project 2, read the rubric and downloaded the project files.
 
