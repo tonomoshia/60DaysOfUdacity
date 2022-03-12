@@ -11,7 +11,7 @@
 - [Business Analytics NanoDegree](https://www.udacity.com/course/business-analytics-nanodegree--nd098)
 - [Google Site](https://sites.google.com/udacity.com/bertelsmann-phase-2/home?authuser=0) for our  cohort of the [Bertelsmann Technology scholarship](https://www.udacity.com/bertelsmann-tech-scholarships)
 - Key Program Dates for Phase 2: March 2, 2022 thru August 31, 2022
-  - [x] Project 1 due March 20, 2022 (passed March 11, 2022)
+  - [x] Project 1 due March 20, 2022 ([passed](20220311_Udacity_Project1_Review.pdf) March 11, 2022)
   - [ ] Project 2 due May 27, 2022
   - [ ] Project 3 due August 3, 2022
   - [ ] Project 4 due August 31, 2022
