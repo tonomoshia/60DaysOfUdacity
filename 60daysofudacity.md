@@ -37,3 +37,8 @@
 2. Tomorrow I will look into the project files and go through the quiz to familiarize myself with the data set. Also read up about making the dashboard as I really did not understand that that well in the Challenge course. The videos were not helpful.
 
 3. Blocker - not understanding the dashboard procedure and how to create ‘scenarios’.
+
+### Day 3 - 03.14.22
+1. Watch 30 minutes of [SQL Tutorial - Full Database Course for Beginners](https://youtu.be/HXV3zeQKqGY) from [FreeCodeCamp](https://www.freecodecamp.org).
+2. Figure out Index & Match (!!)
+3. Time, procrastination and motivation. I see so many people having trouble with Project 2 and I feel like I am going to have an even more difficult time. Kinda avoiding it. 
