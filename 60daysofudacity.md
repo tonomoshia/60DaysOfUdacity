@@ -41,4 +41,11 @@
 ### Day 3 - 03.14.22
 1. Watch 30 minutes of [SQL Tutorial - Full Database Course for Beginners](https://youtu.be/HXV3zeQKqGY) from [FreeCodeCamp](https://www.freecodecamp.org).
 2. Figure out Index & Match (!!)
-3. Time, procrastination and motivation. I see so many people having trouble with Project 2 and I feel like I am going to have an even more difficult time. Kinda avoiding it. 
+3. Time, procrastination and motivation. I see so many people having trouble with Project 2 and I feel like I am going to have an even more difficult time. Kinda avoiding it.
+
+### Day 4 - 03.16.22
+1. Started Using SQL for Data Analysis - 
+   1. Completed Lesson 1: Intro to Using SQL for Data Analytics.
+   2.  Started Lesson 2: Basic SQL (up to section 7).
+2. Continue Lesson 2: Basic SQL.
+3. None. Will do Project 2 later.
