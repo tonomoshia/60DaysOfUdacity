@@ -39,13 +39,106 @@
 3. Blocker - not understanding the dashboard procedure and how to create ‘scenarios’.
 
 ### Day 3 - 03.14.22
+
 1. Watch 30 minutes of [SQL Tutorial - Full Database Course for Beginners](https://youtu.be/HXV3zeQKqGY) from [FreeCodeCamp](https://www.freecodecamp.org).
 2. Figure out Index & Match (!!)
 3. Time, procrastination and motivation. I see so many people having trouble with Project 2 and I feel like I am going to have an even more difficult time. Kinda avoiding it.
 
 ### Day 4 - 03.16.22
-1. Started Using SQL for Data Analysis - 
+
+1. Started Using SQL for Data Analysis -
    1. Completed Lesson 1: Intro to Using SQL for Data Analytics.
-   2.  Started Lesson 2: Basic SQL (up to section 7).
+   2. Started Lesson 2: Basic SQL (up to section 7).
 2. Continue Lesson 2: Basic SQL.
 3. None. Will do Project 2 later.
+
+### Day 5 - 03.20.22
+
+1. Continues Lesson 2: Basic SQL (up to section 22). Had to use Google Chrome to get workspaces working. Safari has cookies blocked and whatnot and I did not want to change that.
+2. Continue Lesson 2: Basic SQL.
+3. Procrastination, my old friend.
+
+**Notes**
+------
+
+   ```sql
+   SELECT occurred_at, account_id, channel
+    FROM web_events
+    LIMIT 15;
+   ```
+
+to get orders in order of date, earliest to latest (default order)
+
+```sql
+    SELECT *
+     FROM orders
+     ORDER BY occurred_at
+     LIMIT 1000;
+```
+
+to get them in decending order (most recent first)
+
+```sql
+    SELECT *
+    FROM orders
+    ORDER BY occurred_at DESC
+    LIMIT 1000;
+```
+
+Write a query to return the 10 earliest orders in the orders table. Include the id, occurred_at, and total_amt_usd.
+
+```sql
+    SELECT id, occurred_at, total_amt_usd
+    FROM orders
+    ORDER BY occurred_at
+    LIMIT 10;
+```
+
+Write a query to return the top 5 orders in terms of the largest total_amt_usd. Include the id, account_id, and total_amt_usd.
+
+```sql
+    SELECT id, occurred_at, total_amt_usd
+    FROM orders
+    ORDER BY total_amt_usd DESC
+    LIMIT 5;
+```
+
+Write a query to return the lowest 20 orders in terms of the smallest total_amt_usd. Include the id, account_id, and total_amt_usd.
+
+```sql
+    SELECT id, occurred_at, total_amt_usd
+    FROM orders
+    ORDER BY total_amt_usd
+    LIMIT 20;
+```
+
+This query selected account_id and total_amt_usd from the orders table, and orders the results first by total_amt_usd in descending order and then account_id
+
+```sql
+    SELECT  account_id,
+        total_amt_usd
+  FROM orders
+  ORDER By total_amt_usd DESC, account_id
+```
+
+Write a query that displays the order ID, account ID, and total dollar amount for all the orders, sorted first by the account ID (in ascending order), and then by the total dollar amount (in descending order).
+
+```sql
+    SELECT id, account_id, total_amt_usd
+    FROM orders
+    ORDER BY account_id, total_amt_usd DESC;
+```
+
+Now write a query that again displays order ID, account ID, and total dollar amount for each order, but this time sorted first by total dollar amount (in descending order), and then by account ID (in ascending order).
+
+```sql
+    SELECT id, account_id, total_amt_usd
+    FROM orders
+    ORDER BY total_amt_usd DESC, account_id;
+```
+
+Compare the results of these two queries above. How are the results different when you switch the column you sort on first?
+
+```
+The last query has biggest orders on top. The original query has the orders grouped by account Id and then sored by amount.
+```
