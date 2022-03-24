@@ -52,7 +52,7 @@
 2. Continue Lesson 2: Basic SQL.
 3. None. Will do Project 2 later.
 
-### Day 5 - 03.20.22
+### Day 5 - 03.22.22
 
 1. Continues Lesson 2: Basic SQL (up to section 22). Had to use Google Chrome to get workspaces working. Safari has cookies blocked and whatnot and I did not want to change that.
 2. Continue Lesson 2: Basic SQL.
