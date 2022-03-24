@@ -2,7 +2,7 @@
 Tracking work on Business Analytics Udacity Nanodegree
 
 I appled for and was accepted into the Bertelsmann Technology Scholarship. 
-After a Challeneg Course (Phase 1), I took a final assessment and I was able to move into the Nanodegree (Phase 2) which includes SQL and Tableau.
+After a Challenge Course (Phase 1), I took a final assessment and I was able to move into the Nanodegree (Phase 2) which includes SQL and Tableau.
 
 ## [What is 60 Days of Udacity Challenge?][1]
 The general premise  is to build a habit by making a public commitment of working in your classroom every day for 60 days within Phase 2 of your Bertelsmann Technology Scholarship Challenge! 
