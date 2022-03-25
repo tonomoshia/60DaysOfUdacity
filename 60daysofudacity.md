@@ -165,8 +165,8 @@ LIMIT 1000;
 
 Common symbols used in WHERE statements include:
 
-- > (greater than)
 - < (less than)
+- > (greater than)
 - >= (greater than or equal to)
 - <= (less than or equal to)
 - = (equal to)
