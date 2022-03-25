@@ -164,12 +164,13 @@ LIMIT 1000;
 ```
 
 Common symbols used in WHERE statements include:
-> (greater than)
-< (less than)
->= (greater than or equal to)
-<= (less than or equal to)
-= (equal to)
-!= (not equal to)
+
+- > (greater than)
+- < (less than)
+- >= (greater than or equal to)
+- <= (less than or equal to)
+- = (equal to)
+- != (not equal to)
 
 *Questions*
 Write a query that:
@@ -198,7 +199,7 @@ The WHERE statement can also be used with non-numeric data. We can use the = and
 
 Commonly when we are using WHERE with non-numeric data fields, we use the LIKE, NOT, or IN operators.
 
-Practice Question Using WHERE with Non-Numeric Data
+Practice Question: Using WHERE with Non-Numeric Data
 Filter the accounts table to include the company name, website, and the primary point of contact (primary_poc) just for the Exxon Mobil company in the accounts table.
 
 ```sql
