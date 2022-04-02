@@ -23,14 +23,15 @@
 - [Viz of the Day][6]
 
 ## Days
+---------
 
 ### Day 1 - 03.08.22
 
 1. Worked on and turned in Project 1.
-
 2. Since my progress from the Challenge course didn’t transfer over, I will start reviewing it to see what’s new.
-
 3. Nothing at this time. Good to go.
+
+---------
 
 ### Day 2 - 03.11.22
 
@@ -40,11 +41,15 @@
 
 3. Blocker - not understanding the dashboard procedure and how to create ‘scenarios’.
 
+---------
+
 ### Day 3 - 03.14.22
 
 1. Watch 30 minutes of [SQL Tutorial - Full Database Course for Beginners][7] from [FreeCodeCamp][8].
 2. Figure out Index & Match (!!)
 3. Time, procrastination and motivation. I see so many people having trouble with Project 2 and I feel like I am going to have an even more difficult time. Kinda avoiding it.
+
+---------
 
 ### Day 4 - 03.16.22
 
@@ -54,11 +59,15 @@
 2. Continue Lesson 2: Basic SQL.
 3. None. Will do Project 2 later.
 
+---------
+
 ### Day 5 - 03.22.22
 
 1. Continues Lesson 2: Basic SQL (up to section 22). Had to use Google Chrome to get workspaces working. Safari has cookies blocked and whatnot and I did not want to change that.
 2. Continue Lesson 2: Basic SQL.
 3. Procrastination, my old friend.
+
+---------
 
 *Notes*
 ------
@@ -144,6 +153,7 @@ Compare the results of these two queries above. How are the results different wh
 ```
 The last query has biggest orders on top. The original query has the orders grouped by account Id and then sored by amount.
 ```
+---------
 
 ### Day 6 - 03.24.22
 
@@ -209,6 +219,7 @@ SELECT name, website, primary_poc
 FROM accounts
 WHERE name = 'Exxon Mobil';
 ```
+--------- 
 
 ### Day 7 - 03.29.2022
 
@@ -271,14 +282,14 @@ Using the **orders** table:
 1. Create a column that divides the `standard_amt_usd` by the `standard_qty` to find the unit price for standard paper for each order. Limit the results to the first 10 orders, and include the `id` and `account_id` fields.
 
    ```sql
-   SELECT id, account_id, standard_amt_usd / standard_qty AS standard_paper_unit_price
- FROM orders
- LIMIT 10;
+SELECT id, account_id, standard_amt_usd / standard_qty AS standard_paper_unit_price
+FROM orders
+LIMIT 10;
    ```
 
 Continued the second question on another day.
 
-
+---------
 ### Day 8 - 04.02.22
 
 1. Watch 15 minutes of [SQL Tutorial - Full Database Course for Beginners][7] from [FreeCodeCamp][8]. Continue Lesson 2: Basic SQL (up to section 41)
